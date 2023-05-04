@@ -1,7 +1,6 @@
 <template>
   <div  class="cart-wrapper md:pb-20 pt-20 pb-10 md:px-40 bg-gray-200">
     <div v-if="cartTotal > 0" class="cart-total fixed top-40 md:top-52 right-6 px-4 py-2 bg-purple-200 font-semibold text-2xl ">
-      <p class="text-black">Cart Total: ${{ cartTotal }}</p>
     </div>
     <!-- table -->
     <table>

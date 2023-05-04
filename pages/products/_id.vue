@@ -22,7 +22,6 @@
             <button class="quantity-btn" @click="quantity++">+</button>
         </div>
         <button @click="addToCard(newProduct)" class="w-full py-2 px-4 bg-black text-white hover:bg-lime-500 hover:text-black transition-all rounded mt-10 font-bold">ADD TO CART</button>
-        <p>{{ cartCount }}</p>
       </div>
     </div>
   </div>
